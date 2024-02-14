@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Mukta";
+  font-weight: 400;
+  src: url("/assets/fonts/Mukta/Mukta-Regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Mukta";
+  font-weight: 500;
+  src: url("/assets/fonts/Mukta/Mukta-Medium.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Mukta";
+  font-weight: 600;
+  src: url("/assets/fonts/Mukta/Mukta-SemiBold.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Poppins";
+  font-weight: 400;
+  src: url("/assets/fonts/Poppins/Poppins-Regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Poppins";
+  font-weight: 500;
+  src: url("/assets/fonts/Poppins/Poppins-Medium.woff2") format("woff2");
+}

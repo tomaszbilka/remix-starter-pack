@@ -1,0 +1,29 @@
+{
+  "include": ["remix.env.d.ts", "**/*.ts", "**/*.tsx", "*.*.tsx"],
+  "compilerOptions": {
+    "lib": ["DOM", "DOM.Iterable", "ES2019"],
+    "isolatedModules": true,
+    "esModuleInterop": true,
+    "jsx": "react-jsx",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "target": "ES2019",
+    "strict": true,
+    "allowJs": true,
+    "forceConsistentCasingInFileNames": true,
+    "baseUrl": ".",
+    "paths": {
+      "~/*": ["./app/*"]
+    },
+
+    // Remix takes care of building everything in `remix build`.
+    "noEmit": true
+  },
+  "exclude": [
+    "./cypress.config.ts",
+    //other exclusions that may help https://github.com/cypress-io/cypress/issues/22059#issuecomment-1428298264
+    "node_modules",
+    "cypress",
+    "**/*.cy.tsx"
+  ]
+}
