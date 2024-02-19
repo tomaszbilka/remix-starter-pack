@@ -10,7 +10,6 @@ const Index = () => {
 
   const changeLanguageHandler = () => {
     const newLocale = currentLocale === 'pl' ? 'en' : 'pl';
-    // eslint-disable-next-line react-hooks/rules-of-hooks
     i18n.changeLanguage(newLocale);
   };
 

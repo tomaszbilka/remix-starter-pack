@@ -5,7 +5,6 @@ import { PassThrough } from 'node:stream';
 import { RemixServer } from '@remix-run/react';
 import { renderToPipeableStream } from 'react-dom/server';
 import { resolve as nodeResolve } from 'node:path';
-import { Response } from '@remix-run/node';
 import { ThemeProvider } from '@mui/material/styles';
 import * as ReactDOMServer from 'react-dom/server';
 import Backend from 'i18next-fs-backend';
